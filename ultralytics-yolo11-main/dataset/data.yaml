@@ -1,0 +1,19 @@
+# dataset path
+path: D:/REsourece/pythonProject/ultralytics-yolo11-main/dataset  # 数据集根目录
+train: images/train  # 训练集目录
+val: images/val    # 验证集目录
+test:         # 测试集目录（可选）
+
+# Classes
+ nc: 10
+# names: ['bicycle', 'bus', 'car', 'motorbike', 'person']
+names: ['Hardhat', 'Mask', 'NO-Hardhat', 'NO-Mask', 'NO-Safety Vest', 'Person', 'Safety Cone', 'Safety Vest', 'machinery', 'vehicle']
+
+# roboflow:
+#   workspace: fsmvu
+#   project: street-view-gdogo
+#   version: 1
+#   license: CC BY 4.0
+#   url: https://universe.roboflow.com/fsmvu/street-view-gdogo/dataset/1
+# Classification training config
+task: detect  # 指定任务类型为分类任务

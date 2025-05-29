@@ -1,0 +1,7 @@
+train: D:\Users\15204\Desktop\yolov11_site_safety\datasets\images\train
+val: D:\Users\15204\Desktop\yolov11_site_safety\datasets\images\valid
+test: D:\Users\15204\Desktop\yolov11_site_safety\datasets\images\test
+
+nc: 10
+
+names: ['Hardhat', 'Mask', 'NO-Hardhat', 'NO-Mask', 'NO-Safety Vest', 'Person', 'Safety Cone', 'Safety Vest', 'machinery', 'vehicle']
