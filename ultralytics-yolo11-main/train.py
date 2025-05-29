@@ -27,7 +27,7 @@ if __name__ == '__main__':
         lr0=0.01,
         lrf=0.01,
         momentum=0.937,
-        project='runs/arc_detect',
+        project='arc_detect',
         name='test',
         exist_ok=True,
         amp=True
