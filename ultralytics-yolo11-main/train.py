@@ -17,7 +17,7 @@ if __name__ == '__main__':
     
     model.train(
         task='detect',
-        data='D:/REsourece/pythonProject/ultralytics-yolo11-main/dataset/data.yaml',
+        data='dataset/data.yaml',
         cache=True,
         imgsz=640,
         epochs=100,
