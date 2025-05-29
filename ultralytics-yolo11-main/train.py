@@ -21,7 +21,7 @@ if __name__ == '__main__':
         cache=True,
         imgsz=640,
         epochs=100,
-        batch=8,  # 由于模型较轻量，可以适当增加batch size
+        batch=16,  # 由于模型较轻量，可以适当增加batch size
         workers=4,
         optimizer='SGD',
         lr0=0.01,
